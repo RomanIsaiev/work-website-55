@@ -1,14 +1,423 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Закрытый астрологический клуб</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">Закрытый</h1>
+        <p class="header-subtitle">астрологический клуб</p>
+        <p class="header-desc">
+          Для тех, кто хочет владеть правильными знаниями и
+        </p>
+        <div class="read-more-container">
+          <p class="read-more">Читай дальше</p>
+          <img
+            src="./src/img/header/read-more-arrow.svg"
+            alt="arrow"
+            width="9"
+            height="10"
+          />
+        </div>
+      </div>
+      <div class="marquee-container">
+        <p class="marquee-text">эксклюзивной информацией</p>
+      </div>
+    </header>
+    <main>
+      <section class="time section">
+        <div class="container">
+          <h2 class="time-title">Пришло время,</h2>
+          <p class="time-subtitle">
+            когда далеко не всё можно и нужно говорить в публичном поле
+          </p>
+          <picture
+            ><source
+              srcset="
+                ./src/img/time/time-image-1x.png 1x,
+                ./src/img/time/time-image-2x.png 2x
+              "
+              width="90"
+              height="90" />
+            <img
+              class="time-image"
+              src="./src/img/time/time-image-1x.png"
+              alt="memoji author"
+              width="90"
+              height="90"
+          /></picture>
+          <div class="time-wrapper">
+            <h3 class="time-wrapper-title">Когда общество делится</h3>
+            <ul class="time-wrapper-list list">
+              <li class="list-item">
+                на тех, кто берет на себя ответственность за жизнь свою и своих
+                близких и тех, кто ждет &#34;спасения&#34; извне
+              </li>
+              <li class="list-item">
+                Когда &#34;Спасение утопающих, дело рук самих утопающих&#34;
+              </li>
+            </ul>
+          </div>
+          <p class="time-desc">
+            Чтобы выжить, обрести счастливое, полноценное настоящее и
+            прогнозируемое будущее – нужно знать, брать ответственность и
+            делать. Это и будет девизом нашего сообщества
+          </p>
+          <p class="belive-subtitle">И я твердо верю,</p>
+          <p class="belive-text">
+            что именно такой подход и соответствующее окружение способно творить
+            чудеса!
+          </p>
+        </div>
+      </section>
+      <section class="inside section">
+        <div class="marquee-container">
+          <p class="marquee-text">Что внутри?</p>
+          <p class="marquee-text">Что внутри?</p>
+        </div>
+        <div class="container">
+          <ul class="inside-list list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-01-1x.png 1x,
+                    ./src/img/inside/inside-01-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-01-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              подробный ежемесячный прогноз
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-02-1x.png 1x,
+                    ./src/img/inside/inside-02-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-02-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              крутое, дружное комьюнити с единомышленниками
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-03-1x.png 1x,
+                    ./src/img/inside/inside-03-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-03-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              эксклюзивная информация о будущем и предстоящих событиях
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-04-1x.png 1x,
+                    ./src/img/inside/inside-04-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-04-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              уникальный контент, инструменты для гармонизации
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-05-1x.png 1x,
+                    ./src/img/inside/inside-05-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-05-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              тематические эфиры с ответами на вопросы
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-06-1x.png 1x,
+                    ./src/img/inside/inside-06-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-06-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              мое поле счастья и поддержка
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-07-1x.png 1x,
+                    ./src/img/inside/inside-07-2x.png 2x
+                  "
+                  width="32"
+                  height="32" />
+                <img
+                  class="time-image"
+                  src="./src/img/inside/inside-07-1x.png"
+                  alt="memoji author"
+                  width="32"
+                  height="32"
+              /></picture>
+              понятный вектор и ясность
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="questions-panel">
+        <div
+          class="panel first"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          data-aos-offset="100"
+        >
+          <p class="panel-text">Хотите знать?</p>
+        </div>
+        <div
+          class="panel second"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="200"
+          data-aos-offset="300"
+        >
+          <p class="panel-text">Не пугает ответственность?</p>
+        </div>
+        <div
+          class="panel third"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="300"
+          data-aos-offset="400"
+        >
+          <p class="panel-text">Готовы действовать на пути к счастью?</p>
+        </div>
+      </section>
+      <section class="our-way section">
+        <div class="container">
+          <picture
+            ><source
+              srcset="
+                ./src/img/our-way/emoji-1x.png 1x,
+                ./src/img/our-way/emoji-2x.png 2x
+              "
+              width="196"
+              height="176" />
+            <img
+              class="way-image"
+              src="./src/img/our-way/emoji-1x.png"
+              alt="memoji"
+              width="196"
+              height="176"
+          /></picture>
+          <p class="way-text">Значит нам по пути!</p>
+        </div>
+        <picture
+          ><source
+            srcset="
+              ./src/img/our-way/author-photo-1x.png 1x,
+              ./src/img/our-way/author-photo-2x.png 2x
+            "
+            width="100%"
+            height="auto" />
+          <img
+            class="author-way-image"
+            src="./src/img/our-way/author-photo-1x.png"
+            alt="memoji"
+            width="100%"
+            height="auto"
+        /></picture>
+      </section>
+      <section class="chance section">
+        <div class="container">
+          <h2 class="chance-title">Сейчас у вас есть возможность</h2>
+          <p class="chance-desc">
+            присоединиться по лучшей стоимости, выбрав оптимальный период
+            участия
+          </p>
+          <p class="chance-accent">Как всегда – позже дороже</p>
+          <ul class="chance-list list">
+            <li class="list-item">
+              <p class="price">$15<span>/ 1 месяц</span></p>
+              <a class="buy-btn link" href="">Присоединиться</a>
+            </li>
+            <li class="list-item">
+              <p class="price">$45<span>/ 3 месяц</span></p>
+              <a class="buy-btn link" href="">Присоединиться</a>
+            </li>
+            <li class="list-item">
+              <p class="price">$90<span>/ 6 месяц</span></p>
+              <a class="buy-btn link" href="">Присоединиться</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="future section">
+        <div class="container">
+          <ul class="future-list list">
+            <li class="list-item">
+              Как бы банально это не звучало, но наше будущее только в наших
+              руках
+            </li>
+            <li class="list-item">
+              Но! Еще более важно счастливое, наполненное настоящее!
+            </li>
+          </ul>
+          <picture
+            ><source
+              srcset="
+                ./src/img/future/future-image-1x.png 1x,
+                ./src/img/future/future-image-2x.png 2x
+              "
+              width="157"
+              height="157" />
+            <img
+              class="way-image"
+              src="./src/img/future/future-image-1x.png"
+              alt="memoji"
+              width="157"
+              height="157"
+          /></picture>
+          <p class="live-text">
+            Я так живу. И это я буду транслировать и передавать вам🤗
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="deals-list list">
+          <li class="deals-item">
+            <a
+              class="deals-link link"
+              href="https://docs.google.com/document/d/1jipHa-jLbFNtYpXc1OvyV23tgZqEAQvV-WFbuCmzjAw/edit"
+              target="_blank"
+              rel="nofollow"
+              >Договір оферта</a
+            >
+          </li>
+          <li class="deals-item">
+            <a
+              class="deals-link link"
+              href="https://docs.google.com/document/d/1QYjLNfEsF5OMl_gRm1E14GeV90hYEUDHZosh5FAoEBM/edit"
+              target="_blank"
+              rel="nofollow"
+              >Політика конфіденційності</a
+            >
+          </li>
+        </ul>
+        <div class="mail-container">
+          <a
+            class="mail-link link"
+            href="mailto:astroinfo.dnepr@gmail.com"
+            target="_blank"
+            rel="nofollow"
+          >
+            <img
+              src="./src/img/gmail-icon.svg"
+              alt="gmail"
+              width="21"
+              height="16"
+            />
+            <p class="mail-link">astroinfo.dnepr@gmail.com</p></a
+          >
+        </div>
+        <p class="footer-fop">ФЛП "Бардадым Р.В."</p>
+        <div class="insta-container">
+          <a
+            class="insta-link link"
+            href="https://www.instagram.com/vikabardadym_astrolog"
+            target="_blank"
+            rel="nofollow"
+            ><img
+              src="./src/img/insta-icon.svg"
+              alt="insta"
+              width="24"
+              height="24"
+            />
+            <p class="insta-name">@vikabardadym_astrolog</p></a
+          >
+        </div>
+        <div class="disign-creator-container">
+          <a
+            class="disigner-link link"
+            href="https://www.instagram.com/lllcku"
+            target="_blank"
+            rel="nofollow"
+            ><p class="creator-text">Сайт розроблений</p>
+            <img
+              src="./src/img/insta-icon.svg"
+              alt="insta"
+              width="14"
+              height="14"
+            />
+            <p class="creator-text">@lllcku</p></a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./src/js/marquee.js" type="module"></script>
+    <script src="./src/js/scrolltrigger.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
+  </body>
 </html>
