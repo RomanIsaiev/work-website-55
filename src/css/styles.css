@@ -98,7 +98,7 @@ img {
   line-height: normal;
   letter-spacing: -1.28px;
 
-  margin-top: -20px;
+  margin-top: -30px;
   margin-bottom: 40px;
 }
 
@@ -118,7 +118,7 @@ img {
 
 .header .marquee-container {
   position: absolute;
-  top: 245px;
+  top: 250px;
   left: 0;
   transform: rotate(-3deg);
 
@@ -188,6 +188,7 @@ img {
   line-height: 120%; /* 24px */
   letter-spacing: -0.8px;
 
+  margin-top: -10px;
   margin-bottom: 50px;
 }
 
@@ -265,8 +266,6 @@ img {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  margin-bottom: 5px;
 }
 
 .belive-text {
@@ -430,15 +429,13 @@ img {
   font-size: 61px;
   font-style: normal;
   font-weight: 400;
-  line-height: 90%; /* 54.9px */
+  line-height: 120%; /* 54.9px */
   letter-spacing: -1.22px;
 
   background: linear-gradient(90deg, #4a81ef 0%, #7db1ff 50%, #4a81ef 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  margin-bottom: 10px;
 }
 
 .chance-desc {
@@ -451,6 +448,10 @@ img {
   line-height: 120%; /* 19.2px */
   letter-spacing: -0.64px;
 
+  max-width: 285px;
+  margin: 0 auto;
+
+  margin-top: -10px;
   margin-bottom: 10px;
 }
 
