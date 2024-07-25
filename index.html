@@ -296,15 +296,21 @@
           <ul class="chance-list list">
             <li class="list-item">
               <p class="price">$15<span>/ 1 месяц</span></p>
-              <a class="buy-btn link" href="">Присоединиться</a>
+              <button class="buy-btn" data-modal-open="modal1">
+                Присоединиться
+              </button>
             </li>
             <li class="list-item">
               <p class="price">$45<span>/ 3 месяц</span></p>
-              <a class="buy-btn link" href="">Присоединиться</a>
+              <button class="buy-btn" data-modal-open="modal2">
+                Присоединиться
+              </button>
             </li>
             <li class="list-item">
               <p class="price">$90<span>/ 6 месяц</span></p>
-              <a class="buy-btn link" href="">Присоединиться</a>
+              <button class="buy-btn" data-modal-open="modal3">
+                Присоединиться
+              </button>
             </li>
           </ul>
         </div>
@@ -413,8 +419,56 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal="modal1">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <script
+          type="module"
+          src="https://kwiga.com/build/js/kwiga-widget.js?t=1721915201000&uuid=d1f9242c-2048-4ce9-9cb0-bad9a2d86267&producer=https://kwiga.com/"
+        ></script>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal="modal2">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <script
+          type="module"
+          src="https://kwiga.com/build/js/kwiga-widget.js?t=1721915230000&uuid=1217781f-01dd-475d-86cd-fb0a25984722&producer=https://kwiga.com/"
+        ></script>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal="modal3">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <script
+          type="module"
+          src="https://kwiga.com/build/js/kwiga-widget.js?t=1721915268000&uuid=07ba1a11-631d-4e21-9351-eda5b2c113ec&producer=https://kwiga.com/"
+        ></script>
+      </div>
+    </div>
     <script src="./src/js/marquee.js" type="module"></script>
-    <script src="./src/js/scrolltrigger.js" type="module"></script>
+    <script src="./src/js/js-modal.js" type="module"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({ duration: 1000 });
