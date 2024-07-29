@@ -493,6 +493,10 @@ img {
   margin-bottom: 14px;
 }
 
+.chance-list .list-item:nth-child(3) .price {
+  color: lightgray;
+}
+
 .chance-list .price span {
   color: #090909;
   text-align: center;
@@ -527,6 +531,10 @@ img {
   border: none;
   border-radius: 30px;
   background: linear-gradient(90deg, #4a81ef 0%, #7db1ff 50%, #4a81ef 100%);
+}
+
+.chance-list .list-item:nth-child(3) .buy-btn {
+  background: lightgray;
 }
 
 /* future */
